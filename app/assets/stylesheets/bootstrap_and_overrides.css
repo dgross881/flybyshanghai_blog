@@ -1,0 +1,92 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Use Font Awesome icons (default)
+  To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
+  =require twitter-bootstrap-static/fontawesome
+  */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container_2 {
+	 margin-left: auto;
+    margin-right: auto;
+    max-width: 58rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+body, p {
+      font-size: 16px;
+          line-height: 28px;
+}
+.post-date {
+    display: block;
+    margin: -10px 0px 10px;
+    color: #CCC;
+}
+p {
+    margin-bottom: 14px;
+}
+body, p {
+    font-size: 16px;
+    line-height: 28px;
+}
+* {
+    -moz-box-sizing: border-box;
+}
+.post img, .post iframe {
+      max-width: 100%;
+}
+img {
+      border: 0px none;
+      display: block;
+       margin: 0px 0px 20px;
+}
+.tweet-button {
+      margin: 14px 0px;
+}
+
+.related-posts {
+    list-style: none outside none;
+    padding-left: 0;
+}
+.related-posts h3 {
+    margin-top: 0;
+}
+.posts li small {
+    color: #999;
+    font-size: 75%;
+}
+.posts li a:hover {
+    color: #268bd2;
+    text-decoration: none;
+}
+.posts li a:hover small {
+    color: inherit;
+}
+.post {
+    margin-bottom: 4em;
+}
+.page-title, .post-title, .post-title a {
+    color: #303030;
+}
+.page-title, .post-title {
+    margin-top: 0;
+}
+.post-date {
+    color: #9a9a9a;
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
+}
+img {
+    border-radius: 5px;
+    display: block;
+    margin: 0 0 1rem;
+    max-width: 100%;
+}

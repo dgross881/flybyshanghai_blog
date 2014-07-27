@@ -1,0 +1,20 @@
+<div class="container">
+<div class="carbonads-container">
+<% @articles.each do |article| %>
+<div class="posts">
+   <div class= "post">
+      <a href="https://twitter.com/share" class="twitter-share-button pull-right" data-via="DavidGr03657611" data-size="large">Tweet</a>
+       <h2 class="post-title"><%= link_to article.title, article_path(article)  %></h2>
+      <span class= "post-date">
+        <%= article.updated_at.strftime("%d, %b %Y") %> 
+        <%= image_tag article.images.url(:medium), class: "img" %>
+      </span>
+        <p><%= article.body %> </p>
+        <span class="glyphicon glyphicon-chevron-right">
+        <%= link_to "Read More", article_path(article), class: "btn btn-primary"  %>  
+      </span>
+     <% end %> 
+   </div>
+  </div>
+ </div>
+</div>

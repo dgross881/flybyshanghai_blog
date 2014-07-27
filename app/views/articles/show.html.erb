@@ -1,0 +1,14 @@
+<div class="container_2">
+<p id="notice"><%= notice %></p>
+   <div class= "post">
+     <h2><%= @article.title %> </h2>
+     <a href="https://twitter.com/share" class="twitter-share-button" data-via="DavidGr03657611" data-size="large">Tweet</a>
+      <span class="post-date">
+        <%= @article.created_at.strftime("%d, %B %Y") %> 
+      </span>
+       <%= image_tag @article.images.url %>
+      
+      <p><%= @article.body %> </p>
+  </div>
+</div>
+  <%= link_to "Back to blog", article_path  %>
