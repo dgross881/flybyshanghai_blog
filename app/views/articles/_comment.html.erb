@@ -1,4 +1,12 @@
-<div>
-  <h4> Comment by <%= comment.author_name %>
-  <p class="comment"> <%= comment.body %></p>
-</div>
+ <div class="actionBox">
+        <ul class="commentList">
+            <li>
+                <div class="commenterImage">   
+                </div>
+                <div class="commentText">
+                    <p> Comment by <%= comment.author_name %></p><span class="date sub-text"> <%= comment.updated_at.strftime("%d, %b %Y") %></span>
+                    <p class=""></p><%= comment.body %></p>
+                </div>
+            </li>    
+      </div>
+ </div>
