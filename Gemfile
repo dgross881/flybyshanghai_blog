@@ -19,13 +19,11 @@ group :development, :test do
   gem "rspec-rails", "~> 2.14.0"
   gem "factory_girl_rails", "~> 4.2.1"
   gem 'sqlite3', '~> 1.3.9'
-   gem 'mailcatcher'
+  gem 'mailcatcher'
 end
 
 group :test do 
- gem 'rspec-rails', '~> 3.0.0'
- gem 'shoulda-matchers', '~> 2.6.2'
- gem 'factory_girl', '~> 4.4.0'
+ gem 'shoulda-matchers', '~> 2.6.1'
  gem 'capybara', '~> 2.4.1'
 end 
 
